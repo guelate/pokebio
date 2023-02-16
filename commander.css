@@ -315,7 +315,19 @@ img.D {
     box-shadow: none;
     transform: translateY(0);
   }
-  
+
+.panier {
+    width: 30%;
+    height: 65%;
+    outline: solid;
+    position: absolute;
+    top: 80%;
+    border-radius: 25px;
+    left: 45%;
+    background-color:#EBF2E3;
+}
+
+
 
 footer {
     width: 100%;
@@ -323,8 +335,8 @@ footer {
     padding: 10px 0;
     font-size: 14px;
     text-align: center;
-    position: fixed;
-    top: 93%;
+    position: absolute;
+    top: 148%;
     right:0%;
     height: 60px;
 }
